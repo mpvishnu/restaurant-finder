@@ -5,9 +5,9 @@
     <string name="value_any_city">Anywhere</string>
     <string name="value_any_price">Any price</string>
 
-    <string name="price_1">$</string>
-    <string name="price_2">$$</string>
-    <string name="price_3">$$$</string>
+    <string name="price_1">economical ($)</string>
+    <string name="price_2">moderate ($$)</string>
+    <string name="price_3">premium ($$$)</string>
 
     <string name="label_category">Category</string>
     <string name="label_city">City</string>
@@ -27,7 +27,7 @@
     <string name="sorted_by_price">sorted by price</string>
     <string name="sorted_by_popularity">sorted by popularity</string>
 
-    <string name="add_random_items">Add Random Items</string>
+    <string name="add_restaurants">Load Restaurants</string>
     <string name="sign_out">Sign Out</string>
     <string name="delete_all">Delete All</string>
     <string name="divider_bullet">•</string>
@@ -56,9 +56,8 @@
         <item>Ramen</item>
         <item>Sushi</item>
     </string-array>
-    ite
 
-    <!-- 50 most populous cities in the US -->
+
     <string-array name="cities">
         <item>@string/value_any_city</item>
 
@@ -111,7 +110,7 @@
         <item>Washington</item>
     </string-array>
 
-    <!-- Price filters -->
+
     <string-array name="prices">
         <item>@string/value_any_price</item>
 
@@ -120,7 +119,7 @@
         <item>@string/price_3</item>
     </string-array>
 
-    <!-- Ways you can sort restaurants -->
+
     <string-array name="sort_by">
         <item>@string/sort_by_rating</item>
         <item>@string/sort_by_popularity</item>

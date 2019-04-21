@@ -97,7 +97,6 @@
 
     </FrameLayout>
 
-    <!-- Main Restaurants recycler -->
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_restaurants"
         android:layout_width="match_parent"
@@ -113,7 +112,6 @@
         android:layout_below="@+id/filter_bar_container"
         android:background="@drawable/bg_shadow" />
 
-    <!-- Empty list (pizza guy) view -->
     <LinearLayout
         android:id="@+id/view_empty"
         android:layout_width="wrap_content"

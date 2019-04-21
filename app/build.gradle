@@ -28,7 +28,7 @@ dependencies {
     // Other Firebase/Play services deps
     implementation 'com.google.firebase:firebase-auth:16.2.0'
     implementation 'com.google.android.gms:play-services-auth:16.0.1'
-
+    implementation 'com.google.firebase:firebase-core:16.0.8'
     // FirebaseUI (for authentication)
     implementation 'com.firebaseui:firebase-ui-auth:4.3.2'
 
@@ -44,6 +44,7 @@ dependencies {
     implementation 'com.android.support:design:28.0.0'
     implementation 'com.android.support:multidex:1.0.3'
     implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.google.firebase:firebase-firestore:18.1.0'
 
     // Android architecture components
     implementation 'android.arch.lifecycle:runtime:1.1.1'
@@ -56,3 +57,4 @@ dependencies {
 }
 
 apply plugin: 'com.google.gms.google-services'
+

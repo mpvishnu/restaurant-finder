@@ -8,6 +8,6 @@
 
     <item
         android:id="@+id/menu_add_items"
-        android:title="@string/add_random_items" />
+        android:title="@string/add_restaurants" />
 
 </menu>
